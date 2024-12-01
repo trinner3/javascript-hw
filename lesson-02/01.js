@@ -14,7 +14,7 @@ const hasSpecialPermission = true
 const hasTemporaryPass = false
 
 let isAccess = false
-if (isAdmin === true && hasSpecialPermission === true || isVerifiedUser === true && hasSpecialPermission === true || isAdmin === true && hasTemporaryPass === true || isVerifiedUser === true && hasTemporaryPass === truer) {
+if (isAdmin === true && hasSpecialPermission === true || isVerifiedUser === true && hasSpecialPermission === true || isAdmin === true && hasTemporaryPass === true || isVerifiedUser === true && hasTemporaryPass === true) {
     isAccess = true
 } 
 
