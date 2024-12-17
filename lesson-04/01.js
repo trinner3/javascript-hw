@@ -26,7 +26,4 @@ function includesElement(array, element) {
     }
     
 }
-const array = [1, 2, 3]
-const element = 2
-includesElement(array, element);
-console.log(includesElement);
+
