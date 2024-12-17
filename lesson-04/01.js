@@ -24,7 +24,7 @@ function includesElement(array, element) {
     }
     return includesElement
 }
-const Array = [1, 2, 3, 4, 5]
-const Element = 7
+const Array = [1, 2, 3]
+const Element = 2
 includesElement(Array, Element)
 console.log(result)
