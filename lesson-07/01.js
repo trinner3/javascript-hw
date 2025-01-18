@@ -6,4 +6,10 @@
   Другой вариант - использовать метод split строк, и метод массива join.
 */
 
-function capitalizeWords() {}
+function capitalizeWords(str) {
+  newStr = str
+  .split(' ')
+  .map((word) => `${word[0].toUpperCase()}${word.slice(1).toLowerCase()}`)
+  .join(' ');
+  return newStr
+} 
