@@ -10,5 +10,9 @@
 */
 
 function truncate(str, maxLength) {
-  // your code
+  if (str.length > maxLength) {
+    newStr = str.slice(0, maxLength) + '...'
+    return newStr
+  } else return str
 }
+console.log(truncate('qq', 20))
